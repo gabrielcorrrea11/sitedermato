@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-img,
+.box-titulo {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 3s ease, opacity 1s ease;
+
+}
+
+.box-img.active,
+.box-titulo.active {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+.box-img {
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background-color: #96e0c1;
+    color: #000;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.box-titulo h1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.box-titulo h2 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.btn-whats {
+    width: 180px;
+    font-weight: 300;
+    background-color: #63c18f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn-whats:hover {
+    cursor: pointer;
+    opacity: 0.8;
+
+}
