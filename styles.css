@@ -124,8 +124,10 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: justify;
-    width: 70%;
+    font-weight: 350;
+    width: 80%;
     font-size: 1.2rem;
+    color: #131313;
 }
 
 .servicos-container {
