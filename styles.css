@@ -134,10 +134,15 @@ body {
 .servicos-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
     width: 100%;
     height: auto;
-    justify-items: center;
-    align-items: center;
+    /* Ajusta automaticamente a altura conforme o conteúdo */
+    margin: 0 auto;
+    /* Garante alinhamento central em navegadores */
 
 }
 
@@ -153,12 +158,17 @@ body {
 .servicos-box {
     display: grid;
     width: 70%;
-    margin-top: 20px;
+    margin-top: 40PX;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    /* Define duas colunas */
+    grid-template-rows: auto;
+    /* Ajusta as linhas dinamicamente */
     gap: 10px;
-    justify-items: center;
-    align-items: center;
+    /* Espaçamento entre os boxes */
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    align-content: center;
+    /* Centraliza os itens verticalmente */
 }
 
 .servicos {
