@@ -31,12 +31,11 @@
 .box-titulo.active {
     opacity: 1;
     transform: translateX(0);
-
 }
 
 .box-img {
-    width: 80%;
-    height: 400px;
+    width: 60%;
+    height: 350px;
     overflow: hidden;
     position: relative;
 
@@ -55,7 +54,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 80%;
+    width: 60%;
     height: auto;
     background-color: #96e0c1;
     color: #000;
@@ -76,7 +75,7 @@
 }
 
 .btn-whats {
-    width: 180px;
+    width: 200px;
     font-weight: 300;
     background-color: #63c18f;
     color: #fff;
@@ -90,5 +89,46 @@
 .btn-whats:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sobre-container h3 {
+    margin-top: 20px;
+}
+
+.sobre-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #63c18f;
+}
+
+.sobre-box p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 60%;
+}
+
+.servicos-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.servicos-container h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
 
 }
