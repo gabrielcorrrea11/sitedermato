@@ -31,7 +31,8 @@ body {
 .box-titulo,
 .servicos-box {
     opacity: 0;
-    transform: translateX(100%) translateY(-50%);
+    /*transform: translateX(100%);*/
+    transform: translateY(-50%);
     transition: transform 3s ease, opacity 1s ease;
 
 }
