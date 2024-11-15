@@ -28,7 +28,8 @@ body {
 }
 
 .box-img,
-.box-titulo {
+.box-titulo,
+.servicos-box {
     opacity: 0;
     transform: translateX(-100%);
     transition: transform 3s ease, opacity 1s ease;
@@ -36,7 +37,8 @@ body {
 }
 
 .box-img.active,
-.box-titulo.active {
+.box-titulo.active,
+.servicos-box.active {
     opacity: 1;
     transform: translateX(0);
 }
