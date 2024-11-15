@@ -147,19 +147,28 @@ body {
 
 .servicos-box {
     display: grid;
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
     justify-items: center;
     align-items: center;
 
 }
 
 .servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: #63c18f48;
+}
 
-    width: 200px;
-    height: 200px;
-    background-color: #63c18f;
+.servicos h4 {
+    font-weight: 300;
+    text-align: center;
 }
