@@ -95,6 +95,9 @@ body {
     height: 40px;
     border: none;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
 }
 
 .btn-whats:hover {
