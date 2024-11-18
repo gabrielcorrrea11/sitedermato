@@ -488,3 +488,246 @@
         width: 15%;
     }
 }
+
+@media (min-width:768px) and (max-width: 991px) {
+    header {
+        display: flex;
+        width: 100%;
+        background-image: url(./images/bglogo.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: auto;
+    }
+
+    nav {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .containerlinks2 {
+        display: none;
+    }
+
+    .containerlinks {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .logo_header {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        height: 100px;
+    }
+
+    .logo_header img {
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .menu1 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 50px;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .menu1 a {
+        text-decoration: none;
+        color: #564d4d;
+    }
+
+    .menu1 a:hover {
+        opacity: 0.8;
+    }
+
+    .container-principal {
+        display: none;
+    }
+
+    .container-desktop {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+    }
+
+    .img-doutor {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 50%;
+    }
+
+    .img-doutor img {
+        width: 70%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .textobox {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .textobox h1 {
+        width: 50%;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: italic;
+
+    }
+
+    .textobox p {
+        width: 50%;
+        margin-top: 10px;
+        font-weight: 300;
+        color: #564d4d;
+    }
+
+    .highlight {
+        font-weight: bold;
+        position: relative;
+    }
+
+    .highlight::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 4px;
+        background-color: #96e0c1;
+        z-index: -1;
+    }
+
+    .btn-whats3 {
+        width: 230px;
+        font-weight: 400;
+        background: rgb(0, 255, 102);
+        background: linear-gradient(331deg, rgba(0, 255, 102, 1) 0%, rgba(99, 193, 143, 1) 100%);
+        color: #fff;
+        border-radius: 30px 5px 30px 5px;
+        font-size: 1rem;
+        height: 50px;
+        border: none;
+        margin-top: 40px;
+        box-shadow: none;
+    }
+
+    .btn-whats3:hover {
+        opacity: 0.8;
+        cursor: pointer;
+        background: rgb(0, 255, 102);
+        background: linear-gradient(331deg, rgba(0, 255, 102, 1) 0%, rgba(41, 80, 59, 1) 100%);
+    }
+
+    .sobre-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .sobre-container h3 {
+        margin-bottom: 20px;
+    }
+
+    .sobre-box {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 400px;
+        border-radius: 50px;
+    }
+
+    .sobre-box p {
+        font-size: 0.9rem;
+        text-align: justify;
+        width: 40%;
+
+    }
+
+    .fotosobre {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .fotosobre img {
+        width: 300px;
+    }
+
+    .servicos-container {
+        width: 100%;
+        height: auto;
+        display: grid
+    }
+
+    .servicos-box {
+        width: 100%;
+        height: 500px;
+        gap: 30px;
+        grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
+
+    .servicos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        border-radius: 30px 5px 30px 5px;
+        background-color: #63c18f48;
+    }
+
+    .contato-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 500px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+    }
+
+    .contato-container p {
+        width: 60%;
+        text-align: center;
+    }
+
+    iframe {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .contato-box {
+        width: 20%;
+    }
+
+    .redes-box {
+        width: 20%;
+    }
+}
