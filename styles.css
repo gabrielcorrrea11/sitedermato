@@ -10,8 +10,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
     margin: 0;
+}
+
+header {
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 
 .container-principal {
@@ -21,17 +29,12 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .box-img,
 .box-titulo,
 .servicos-box {
     opacity: 0;
-    /*transform: translateX(100%);*/
     transform: translateY(-50%);
     transition: transform 3s ease, opacity 1s ease;
 
