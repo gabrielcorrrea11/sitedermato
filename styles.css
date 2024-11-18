@@ -22,6 +22,10 @@ header {
     width: 100%;
 }
 
+nav {
+    display: none;
+}
+
 .container-principal {
     display: flex;
     justify-content: center;

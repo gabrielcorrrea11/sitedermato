@@ -5,7 +5,11 @@
     header {
         display: flex;
         width: 100%;
-        background-image: none;
+        background-image: url(./images/bglogo.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+
+        background-size: auto;
     }
 
     nav {
