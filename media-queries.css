@@ -8,6 +8,40 @@
         background-image: none;
     }
 
+    nav {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+
+    }
+
+    .containerlinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .logo_header {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        height: 100px;
+    }
+
+    .logo_header img {
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
     .container-principal {
         display: none;
     }
