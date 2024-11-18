@@ -281,10 +281,18 @@ iframe {
 .redes-box {
     width: 50%;
     display: flex;
-    gap: 5px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.icons-box {
+    display: flex;
+    gap: 4px;
+}
+
+.icons-box img:hover {
+    opacity: 0.8;
 }
 
 footer {
