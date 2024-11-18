@@ -23,6 +23,10 @@
 
     }
 
+    .containerlinks2 {
+        display: none;
+    }
+
     .containerlinks {
         display: flex;
         justify-content: center;
