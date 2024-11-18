@@ -66,6 +66,10 @@ header {
     object-position: center;
 }
 
+.fotosobre {
+    display: none;
+}
+
 .box-titulo {
     display: flex;
     flex-direction: column;
