@@ -155,4 +155,32 @@
         border-radius: 30px 5px 30px 5px;
         background-color: #63c18f48;
     }
+
+    .contato-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 500px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+    }
+
+    .contato-container p {
+        width: 60%;
+        text-align: center;
+    }
+
+    iframe {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .contato-box {
+        width: 15%;
+    }
+
+    .redes-box {
+        width: 15%;
+    }
+
 }
