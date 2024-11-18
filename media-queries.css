@@ -246,7 +246,7 @@
 
 }
 
-@media (min-width:992px) and (max-width: 1199px) {
+@media (min-width:700px) and (max-width: 1199px) {
     header {
         display: flex;
         width: 100%;
@@ -464,7 +464,7 @@
     .contato-container {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 70%;
         height: 500px;
         margin-bottom: 50px;
         border-radius: 50px;
@@ -481,11 +481,11 @@
     }
 
     .contato-box {
-        width: 15%;
+        width: 20%;
     }
 
     .redes-box {
-        width: 15%;
+        width: 20%;
     }
 }
 
