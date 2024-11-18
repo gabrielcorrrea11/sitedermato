@@ -31,6 +31,10 @@ header {
     height: 100vh;
 }
 
+.container-desktop {
+    display: none;
+}
+
 .box-img,
 .box-titulo,
 .servicos-box {
